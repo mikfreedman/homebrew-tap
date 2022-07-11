@@ -9,13 +9,13 @@
   "license": "Apache-2.0",
   "homepage": "https://github.com/mikfreedman/harvey",
   "versions": {
-    "stable": "0.1.1",
+    "stable": "0.1.2",
     "head": null,
     "bottle": false
   },
   "urls": {
     "stable": {
-      "url": "https://github.com/mikfreedman/harvey/releases/download/v0.1.1/harvey_v0.1.1_Darwin_x86_64.tar.gz",
+      "url": "https://github.com/mikfreedman/harvey/releases/download/v0.1.2/harvey_v0.1.2_Darwin_x86_64.tar.gz",
       "tag": null,
       "revision": null
     }
