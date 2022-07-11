@@ -5,21 +5,21 @@
 class Harvey < Formula
   desc "Remove Extra Stuff from Markdown"
   homepage "https://github.com/mikfreedman/harvey"
-  version "0.1.0"
+  version "0.1.1"
   license "Apache-2.0"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/mikfreedman/harvey/releases/download/v0.1.0/harvey_v0.1.0_Darwin_x86_64.tar.gz"
-      sha256 "395bef877fced894e01ac235dcfd4559ce0d35af552cd6bfe28b1102ed16d25e"
+      url "https://github.com/mikfreedman/harvey/releases/download/v0.1.1/harvey_v0.1.1_Darwin_x86_64.tar.gz"
+      sha256 "007d070b70348262f5ddc0ee1c6dd50e7f2ce72496855f500925b344a8ca56c6"
 
       def install
         bin.install "harvey"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/mikfreedman/harvey/releases/download/v0.1.0/harvey_v0.1.0_Darwin_arm64.tar.gz"
-      sha256 "64b03007289e5a00f5959f3dea8dfcc5d3541a24f7dfb419dfe9927a26768e01"
+      url "https://github.com/mikfreedman/harvey/releases/download/v0.1.1/harvey_v0.1.1_Darwin_arm64.tar.gz"
+      sha256 "aa66be69f980a92cfc68c3d504f66899b5fa4a2d345e42154422b97b463a03e7"
 
       def install
         bin.install "harvey"
@@ -28,17 +28,17 @@ class Harvey < Formula
   end
 
   on_linux do
-    if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/mikfreedman/harvey/releases/download/v0.1.0/harvey_v0.1.0_Linux_arm64.tar.gz"
-      sha256 "4bee69f1bb1f564116be94f32a9e1a2defd70e12241ac2f24b12d91e6cbc092f"
+    if Hardware::CPU.intel?
+      url "https://github.com/mikfreedman/harvey/releases/download/v0.1.1/harvey_v0.1.1_Linux_x86_64.tar.gz"
+      sha256 "d939f764041c7acaec6fbbb6dcea6feeb00009f87b712d309a3ca412f982a3ff"
 
       def install
         bin.install "harvey"
       end
     end
-    if Hardware::CPU.intel?
-      url "https://github.com/mikfreedman/harvey/releases/download/v0.1.0/harvey_v0.1.0_Linux_x86_64.tar.gz"
-      sha256 "21383edcf4cd8be914cc6702aedacf5a4b97d85774e8a6dbe5f321f07528c3a6"
+    if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
+      url "https://github.com/mikfreedman/harvey/releases/download/v0.1.1/harvey_v0.1.1_Linux_arm64.tar.gz"
+      sha256 "288f9aaff0145af05942d9698681c54483395a17b348be3aa16b2716b1048a41"
 
       def install
         bin.install "harvey"
