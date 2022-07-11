@@ -1,0 +1,47 @@
+{
+  "name": "harvey",
+  "full_name": "harvey",
+  "tap": null,
+  "oldname": null,
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Remove Extra Stuff from Markdown",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/mikfreedman/harvey",
+  "versions": {
+    "stable": "0.0.6",
+    "head": null,
+    "bottle": false
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/mikfreedman/harvey/releases/download/v0.0.6/harvey_v0.0.6_Darwin_x86_64.tar.gz",
+      "tag": null,
+      "revision": null
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {},
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null
+}
